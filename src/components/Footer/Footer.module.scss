@@ -1,0 +1,91 @@
+@import 'styles/variables.scss';
+.root {
+  padding: 55px 0px 0px 0px;
+  @media (max-width: 400px) {
+    background: #0e1014;
+    padding: 45px 0px 0px 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  h3 {
+    color: $gray;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0px 0px 20px 0px;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0px 33px 0px;
+  flex-wrap: wrap;
+	@media(max-width:400px){
+  gap: 30px;
+
+	}
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  li {
+    margin: 0px 0px 10px 0px;
+  }
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+.menuLists {
+  display: flex;
+
+  ul {
+    margin: 0px 52px 0px 0px;
+    li {
+      margin: 0px 0px 10px 0px;
+    }
+  }
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+	@media(max-width:400px){
+  align-items: start;
+	}
+}
+.contactsSocial {
+  margin: 21px 0px 21px 0px;
+  a {
+    img {
+      margin: 0px 0px 0px 12px;
+    }
+  }
+}
+.politics {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 0px 0px 20px 0px;
+  text-align: right;
+@media(max-width:400px){
+  text-align: left;
+	margin: 0px 0px 60px 0px;
+	}
+  p {
+    margin: 0px 0px 5px 0px;
+  }
+  a {
+    text-decoration-line: underline;
+  }
+}
